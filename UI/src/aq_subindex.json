@@ -1,0 +1,36 @@
+{
+  "features": {
+    "dust": [
+      {
+        "name": "pm10",
+        "value": 31
+      },
+      {
+        "name": "pm15",
+        "value": "31"
+      },
+      {
+        "name": "pm10",
+        "value": "31"
+      }
+    ],
+    "gas": [
+      {
+        "name": "so",
+        "value": "31"
+      },
+      {
+        "name": "co",
+        "value": "31"
+      },
+      {
+        "name": "o3",
+        "value": "31"
+      },
+      {
+        "name": "no2",
+        "value": "31"
+      }
+    ]
+  }
+}
