@@ -2,3 +2,5 @@
 UI/node_modules/
 
 \.idea/
+
+UI/npm-debug\.log

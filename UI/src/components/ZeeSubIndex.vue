@@ -1,5 +1,6 @@
 <template>
     <div class="sub-index-card card">
+
         <header class="sub-indices-header columns">
             <div class="column">
                 Dust
@@ -7,25 +8,33 @@
             <div class="column">
                 Gas
             </div>
+
+
+
         </header>
         <div class="sub-indices tabs">
             <div class="feature button"
-                 @click="toggle = !toggle"
-                 v-for="aqSubIndex in data.features.dust"
+                 @click="toggleActive('dust', index)"
+                 v-for="(aqSubIndex, index) in data.features.dust"
             >
-                <div class="feature-info">{{aqSubIndex.name}}</div>
+                <div class="feature-info">
+                    {{aqSubIndex.name}}
+                 </div>
             </div>
+
             <div class="feature feature-divider"></div>
+
             <div class="feature button"
-                 @click="toggle = !toggle"
+                 @click="toggleActive('dust', index)"
                  v-for="aqSubIndex in data.features.gas"
             >
                 <div class="feature-info">{{ aqSubIndex.name }}</div>
             </div>
 
+
         </div>
-        <transition name="fade">
-            <article class="media msg" v-if="toggle">
+        <transition name="fade" v-if="toggle">
+            <article class="media msg" >
                 <figure class="media-left">
                     <p class="image is-64x64">
                         <img src="http://bulma.io/images/placeholders/128x128.png">
@@ -151,25 +160,25 @@
 <script>
     export default {
         props: ['data'],
-        mounted(){
-            let features = this.data;
-            features = {
-                "features": {
-                    "gas": [
-                        {
-                            "name": "pm10",
-                            "is_active": false,
-                            "value": 21,
-                            "details": {"This might be an ajax call"}
-                        }
-                    ]
-                }
-            }
-        },
         data(){
             return {
-                features: {},
+                features: this.data,
                 toggle: false
+            }
+        },
+        methods:{
+            toggleActive(subIndexGroup, index){
+                this.allInactive();
+
+                this.features.features[subIndexGroup][index].isActive = true;
+            },
+            allInactive(){
+                this.features.features.dust.forEach( function (value) {
+                    value.isActive = false;
+                } );
+                this.features.features.gas.forEach( function (value) {
+                    value.isActive = false;
+                } );
             }
         }
     }

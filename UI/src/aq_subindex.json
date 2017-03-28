@@ -3,33 +3,43 @@
     "dust": [
       {
         "name": "pm10",
-        "value": 31
+        "value": 31,
+        "isActive": false,
+        "details": {
+
+        }
       },
       {
         "name": "pm15",
-        "value": "31"
+        "value": "31",
+        "isActive": false
       },
       {
         "name": "pm10",
-        "value": "31"
+        "value": "31",
+        "isActive": false
       }
     ],
     "gas": [
       {
         "name": "so",
-        "value": "31"
+        "value": "31",
+        "isActive": false
       },
       {
         "name": "co",
-        "value": "31"
+        "value": "31",
+        "isActive": false
       },
       {
         "name": "o3",
-        "value": "31"
+        "value": "31",
+        "isActive": false
       },
       {
         "name": "no2",
-        "value": "31"
+        "value": "31",
+        "isActive": false
       }
     ]
   }
