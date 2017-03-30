@@ -12,8 +12,6 @@
     .aqi-card {
         padding: 1em;
     }
-
-
 </style>
 
 <script>
@@ -33,7 +31,7 @@
             return {
                 location: 'Turku Centrum',
                 timestamp: '04:45',
-                aqi: '2.3',
+                aqi: '61',
                 aqi_collection: require('../aqi_collection.json').collection,
                 aq_subindex: require('../aq_subindex.json')
             }

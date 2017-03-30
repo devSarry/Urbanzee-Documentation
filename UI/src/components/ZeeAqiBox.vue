@@ -16,11 +16,19 @@
     </div>
 </template>
 
-<style scoped>
+<style lang="scss">
+    /*AQI Scale Colors*/
+    $good: #2fb400;
+    $moderate: rgb(255, 207, 0);
+    $unhealthy1: rgba(255, 78, 0, 1);
+    $unhealthy2: rgba(247, 4, 0, 1);;
+    $unhealthy3: rgba(84, 19, 136, 1);
+    $hazardous: #472a3c;
+
 
     .aqi-box {
 
-        background-color: rgb(255, 248, 0);
+        background-color: $moderate;
     }
 
     .aqi-box header {
@@ -38,8 +46,7 @@
         font-weight: 700;
         text-align: center;
         color: rgb(255, 255, 255);
-        margin-top: -0.3em;
-        /*padding-bottom: 85px;*/
+
     }
 
     .aqi-box footer {

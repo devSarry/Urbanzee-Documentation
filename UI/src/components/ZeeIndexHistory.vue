@@ -4,14 +4,11 @@
             <p class="card-header-title">
                 {{ data.length }} {{ interval }}
             </p>
-            <a class="card-header-icon">
-              <span class="icon">
-                <i class="fa fa-angle-down"></i>
-              </span>
-            </a>
         </header>
         <div class="sub-indices">
-            <div class="feature button" v-for="aqi in data">
+            <div :class="featureColorClass(aqi.value)"
+                 class="feature button"
+                 v-for="aqi in data">
                 <div class="feature-info">{{ formatDateTime(aqi.date) }}</div>
             </div>
         </div>
@@ -21,8 +18,21 @@
 <style scoped>
 
     .feature {
+        flex-direction: row;
         font-size: 1vw;
         white-space: normal;
+    }
+
+    .feature-info{
+        align-self: center;
+    }
+
+
+
+    .feature:before {
+        content: '';
+        float: left;
+        padding:45% 0;
     }
 
     .sub-indices {
@@ -58,6 +68,24 @@
                 } catch (e) {
                     console.log(e);
                 }
+            },
+            featureColorClass(value){
+                if (value > 0 && value < 50) {
+                    return 'good-aqi'
+                }
+                if (value >= 50 && value < 100) {
+                    return 'moderate-aqi'
+                }
+                if (value >= 100 && value < 150) {
+                    return 'unhealthy-aqi'
+                }
+                if (value >= 150 && value < 200) {
+                    return 'more-unhealthy-aqi'
+                }
+                if (value >= 200 && value < 300) {
+                    return 'very-unhealthy-aqi'
+                }
+                return 'hazardous-aqi'
             }
         }
     }

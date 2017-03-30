@@ -2,44 +2,292 @@
   "features": {
     "dust": [
       {
-        "name": "pm10",
-        "value": 31,
+        "name": "pm<sub>10</sub>",
+        "long_name": "Particulate Matter < 10µm",
+        "value": 60,
         "isActive": false,
         "details": {
+            "previous_readings": [
+              {
+                "date": "2017-03-27T10:00:00Z",
+                "value": 87
+              },
+              {
+                "date": "2017-03-27T11:00:00Z",
+                "value": 33
+              },
+              {
+                "date": "2017-03-27T12:00:00Z",
+                "value": 31
+              },
+              {
+                "date": "2017-03-27T13:00:00Z",
+                "value": 27
+              },
 
+              {
+                "date": "2017-03-27T14:00:00Z",
+                "value": 38
+              },
+              {
+                "date": "2017-03-27T15:00:00Z",
+                "value": 39
+              },
+              {
+                "date": "2017-03-27T16:00:00Z",
+                "value": 39
+              }
+            ],
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
         }
       },
       {
-        "name": "pm15",
-        "value": "31",
-        "isActive": false
+        "name": "pm<sub>2.5</sub>",
+        "value": "60",
+        "long_name": "Particulate Matter < 2.5µm",
+        "isActive": false,
+        "details": {
+          "previous_readings": [
+            {
+              "date": "2017-03-27T10:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T11:00:00Z",
+              "value": 33
+            },
+            {
+              "date": "2017-03-27T12:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T13:00:00Z",
+              "value": 27
+            },
+
+            {
+              "date": "2017-03-27T14:00:00Z",
+              "value": 38
+            },
+            {
+              "date": "2017-03-27T15:00:00Z",
+              "value": 39
+            },
+            {
+              "date": "2017-03-27T16:00:00Z",
+              "value": 39
+            }
+          ],
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+        }
+
       },
       {
-        "name": "pm10",
-        "value": "31",
-        "isActive": false
+        "name": "pm<sub>1</sub>",
+        "long_name": "Particulate Matter < 1µm",
+        "value": "60",
+        "isActive": false,
+        "details": {
+          "previous_readings": [
+            {
+              "date": "2017-03-27T10:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T11:00:00Z",
+              "value": 33
+            },
+            {
+              "date": "2017-03-27T12:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T13:00:00Z",
+              "value": 27
+            },
+
+            {
+              "date": "2017-03-27T14:00:00Z",
+              "value": 38
+            },
+            {
+              "date": "2017-03-27T15:00:00Z",
+              "value": 39
+            },
+            {
+              "date": "2017-03-27T16:00:00Z",
+              "value": 39
+            }
+          ],
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+        }
+
       }
     ],
     "gas": [
       {
-        "name": "so",
-        "value": "31",
-        "isActive": false
+        "name": "so<sub>2</sub>",
+        "long_name": "Sulfur Dioxide",
+        "value": "101",
+        "isActive": false,
+        "details": {
+          "previous_readings": [
+            {
+              "date": "2017-03-27T10:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T11:00:00Z",
+              "value": 33
+            },
+            {
+              "date": "2017-03-27T12:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T13:00:00Z",
+              "value": 27
+            },
+
+            {
+              "date": "2017-03-27T14:00:00Z",
+              "value": 38
+            },
+            {
+              "date": "2017-03-27T15:00:00Z",
+              "value": 39
+            },
+            {
+              "date": "2017-03-27T16:00:00Z",
+              "value": 39
+            }
+          ],
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+        }
+
       },
       {
         "name": "co",
+        "long_name": "Carbon Monoxide",
         "value": "31",
-        "isActive": false
+        "isActive": false,
+        "details": {
+          "previous_readings": [
+            {
+              "date": "2017-03-27T10:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T11:00:00Z",
+              "value": 33
+            },
+            {
+              "date": "2017-03-27T12:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T13:00:00Z",
+              "value": 27
+            },
+
+            {
+              "date": "2017-03-27T14:00:00Z",
+              "value": 38
+            },
+            {
+              "date": "2017-03-27T15:00:00Z",
+              "value": 39
+            },
+            {
+              "date": "2017-03-27T16:00:00Z",
+              "value": 39
+            }
+          ],
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+        }
+
       },
       {
-        "name": "o3",
-        "value": "31",
-        "isActive": false
+        "name": "o<sub>3</sub>",
+        "long_name": "Ozone",
+        "value": "160",
+        "isActive": false,
+        "details": {
+          "previous_readings": [
+            {
+              "date": "2017-03-27T10:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T11:00:00Z",
+              "value": 33
+            },
+            {
+              "date": "2017-03-27T12:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T13:00:00Z",
+              "value": 27
+            },
+
+            {
+              "date": "2017-03-27T14:00:00Z",
+              "value": 38
+            },
+            {
+              "date": "2017-03-27T15:00:00Z",
+              "value": 39
+            },
+            {
+              "date": "2017-03-27T16:00:00Z",
+              "value": 39
+            }
+          ],
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+        }
+
       },
       {
-        "name": "no2",
-        "value": "31",
-        "isActive": false
+        "name": "no<sub>2</sub>",
+        "long_name": "Nitrogen Dioxide",
+        "value": "200",
+        "isActive": false,
+        "details": {
+          "previous_readings": [
+            {
+              "date": "2017-03-27T10:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T11:00:00Z",
+              "value": 33
+            },
+            {
+              "date": "2017-03-27T12:00:00Z",
+              "value": 31
+            },
+            {
+              "date": "2017-03-27T13:00:00Z",
+              "value": 27
+            },
+
+            {
+              "date": "2017-03-27T14:00:00Z",
+              "value": 38
+            },
+            {
+              "date": "2017-03-27T15:00:00Z",
+              "value": 39
+            },
+            {
+              "date": "2017-03-27T16:00:00Z",
+              "value": 39
+            }
+          ],
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+        }
+
       }
     ]
   }
