@@ -20,9 +20,9 @@
     /*AQI Scale Colors*/
     $good: #2fb400;
     $moderate: rgb(255, 207, 0);
-    $unhealthy1: rgba(255, 78, 0, 1);
-    $unhealthy2: rgba(247, 4, 0, 1);;
-    $unhealthy3: rgba(84, 19, 136, 1);
+    $unhealthy1: rgb(255, 78, 0);
+    $unhealthy2: rgb(247, 4, 0);
+    $unhealthy3: rgb(84, 19, 136);
     $hazardous: #472a3c;
 
 

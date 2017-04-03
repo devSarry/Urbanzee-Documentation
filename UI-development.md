@@ -17,7 +17,7 @@ Each component will have it's own note and will included:
 ## Visual Notes
 ### Color Swatches
 The first 5 ranges for the
-![color range](http://i.imgur.com/wH5VPFO.png)
+![color range](http://i.imgur.com/GQEBiej.png)
 ### ZeeIndexHistory
 The component can arrange upto 11 elements before the boxes overflow
 ![overflow](http://i.imgur.com/52xO6Fl.png)
@@ -26,11 +26,39 @@ This is cause by the text width needing to be 65px wide.
 
 ## Implementation Notes
 
+### ZeeAqiBox
+
+`<zee-aqi-box aqi="31" location="Turku Centrum" timestamp="14:45">`
+![zeebox](http://i.imgur.com/NwgATpY.png)
+
+`ZeeAqiBox.vue` This component is the main AQI box. Kind of the firs thing a user sees. It displays the air quality index and its color changes according to the break points.
+
+#### Props
+
+`aqi=31`
+`location="Turku Centrum"`
+`timestamp="15:45"`
+
+
+***
+
+### ZeeCard
+
+`ZeeCard.vue` This is your "main" component kind of where we build up all the parts of this widget. It's also the component that should be responsible for getting all the data.
+
 ### ZeeSubIndex
+
+`<zee-sub-index data="aq_subIndex">`
+![zeesubindex](http://i.imgur.com/6ar9EHz.png)
+
 `ZeeSubIndex.vue` This component displays a row of the sub indices so2, no, co, pm1, pm10, and pm15
 
-### Props
-* `data` - takes a json object
+When a user clicks on any of the sub indices a history card opens up an shows the past reading of that sub index plus additional information.
+
+![zeesubindexfull](http://i.imgur.com/R6Vge7p.png)
+
+#### Props
+* `data` - takes a json object that should look like the json structure below.
 
     `data=aq_subIndex`
     
@@ -39,27 +67,41 @@ This is cause by the text width needing to be 65px wide.
         "features": {
             "gas": [
                 {
-                    "name": "no3",
+                    "name": "no2",
+                    "long_name": "nitrogen dioxide",
                     "is_active": false,
                     "value": 21,
-                    "details": {"This might be an ajax call"}
+                    "details": {
+                      "previous_reading": [
+                      {
+                        "date": "2017-03-27T10:00:00Z",
+                        "value": 31
+                      }, ...
+                    ],
+                      "description": "Lorem ......"
+                  }
                 },...
             ],
             "dust": [
                 {
                   "name": "pm1",
+                  "long_name": "Particulate Matter < 1 um",
                   "is_active": false,
                   "value": 21,
-                  "details": {"This might be an ajax call"}
+                  "details": {...}
                 },...
           ]
         }
     }
     ```
+
+***
+
 ### ZeeIndexHistory
 
-#### Introductio
-`ZeeIndexHistory.vue` This component displays a row of historical AQI data
+`ZeeIndexHistory.vue` This component displays a row of historical AQI data. This component is reused in ZeeSubIndexHistory with a few css changes.
+
+![zeeindexhistory](http://i.imgur.com/I1kPtmp.png)
 
 #### Props
 * `interval` - is a string either "hours", "days", "weeks", or "years" 
