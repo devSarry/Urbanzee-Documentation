@@ -9,36 +9,36 @@
         "details": {
             "previous_readings": [
               {
-                "date": "2017-03-27T10:00:00Z",
-                "value": 87
+                "date": "2017-03-27T10:12:00Z",
+                "value": 39
               },
               {
-                "date": "2017-03-27T11:00:00Z",
-                "value": 33
+                "date": "2017-03-27T11:13:00Z",
+                "value": 35
               },
               {
-                "date": "2017-03-27T12:00:00Z",
-                "value": 31
+                "date": "2017-03-27T12:14:00Z",
+                "value": 43
               },
               {
-                "date": "2017-03-27T13:00:00Z",
-                "value": 27
+                "date": "2017-03-27T13:15:00Z",
+                "value": 49
               },
 
               {
-                "date": "2017-03-27T14:00:00Z",
-                "value": 38
+                "date": "2017-03-27T14:16:00Z",
+                "value": 46
               },
               {
-                "date": "2017-03-27T15:00:00Z",
-                "value": 39
+                "date": "2017-03-27T15:17:00Z",
+                "value": 82
               },
               {
-                "date": "2017-03-27T16:00:00Z",
-                "value": 39
+                "date": "2017-03-27T16:18:00Z",
+                "value": 66
               }
             ],
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+          "description": "Particulate matter is a mixture of solid particles and liquid droplets in the air and are divided by diameter. Its main source is burning of solid and liquid fuels, but it is also formed through chemical reactions of gases in the air. For health, smaller particles are considered more of a risk as they can enter deeper into human system with breathed air. They cause irritation in lungs and lung diseases."
         }
       },
       {
@@ -49,36 +49,36 @@
         "details": {
           "previous_readings": [
             {
-              "date": "2017-03-27T10:00:00Z",
-              "value": 31
+              "date": "2017-03-27T10:12:00Z",
+              "value": 10
             },
             {
-              "date": "2017-03-27T11:00:00Z",
-              "value": 33
+              "date": "2017-03-27T11:13:00Z",
+              "value": 14
             },
             {
-              "date": "2017-03-27T12:00:00Z",
-              "value": 31
+              "date": "2017-03-27T12:14:00Z",
+              "value": 15
             },
             {
-              "date": "2017-03-27T13:00:00Z",
-              "value": 27
+              "date": "2017-03-27T13:15:00Z",
+              "value": 16
             },
 
             {
-              "date": "2017-03-27T14:00:00Z",
-              "value": 38
+              "date": "2017-03-27T14:16:00Z",
+              "value": 13
             },
             {
-              "date": "2017-03-27T15:00:00Z",
-              "value": 39
+              "date": "2017-03-27T15:17:00Z",
+              "value": 6
             },
             {
-              "date": "2017-03-27T16:00:00Z",
-              "value": 39
+              "date": "2017-03-27T16:18:00Z",
+              "value": 4
             }
           ],
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+          "description": "Particulate matter is a mixture of solid particles and liquid droplets in the air and are divided by diameter. Its main source is burning of solid and liquid fuels, but it is also formed through chemical reactions of gases in the air. For health, smaller particles are considered more of a risk as they can enter deeper into human system with breathed air. They cause irritation in lungs and lung diseases."
         }
 
       },
@@ -119,7 +119,7 @@
               "value": 39
             }
           ],
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+          "description": "Particulate matter is a mixture of solid particles and liquid droplets in the air and are divided by diameter. Its main source is burning of solid and liquid fuels, but it is also formed through chemical reactions of gases in the air. For health, smaller particles are considered more of a risk as they can enter deeper into human system with breathed air. They cause irritation in lungs and lung diseases."
         }
 
       }
@@ -133,36 +133,36 @@
         "details": {
           "previous_readings": [
             {
-              "date": "2017-03-27T10:00:00Z",
-              "value": 31
+              "date": "2017-03-27T10:12:00Z",
+              "value": 0
             },
             {
-              "date": "2017-03-27T11:00:00Z",
-              "value": 33
+              "date": "2017-03-27T11:13:00Z",
+              "value": 0
             },
             {
-              "date": "2017-03-27T12:00:00Z",
-              "value": 31
+              "date": "2017-03-27T12:14:00Z",
+              "value": 0
             },
             {
-              "date": "2017-03-27T13:00:00Z",
-              "value": 27
+              "date": "2017-03-27T13:15:00Z",
+              "value": 0
             },
 
             {
-              "date": "2017-03-27T14:00:00Z",
-              "value": 38
+              "date": "2017-03-27T14:16:00Z",
+              "value": 0
             },
             {
-              "date": "2017-03-27T15:00:00Z",
-              "value": 39
+              "date": "2017-03-27T15:17:00Z",
+              "value": 0
             },
             {
-              "date": "2017-03-27T16:00:00Z",
-              "value": 39
+              "date": "2017-03-27T16:18:00Z",
+              "value": 0
             }
           ],
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+          "description": "Sulfur dioxide is a colorless gas with pungent odor, its main source is from burning of fossil fuels. Affects human health when breathed in, it irritates nose, throat and airways. Causes coughing, wheezing, breathing difficulties, can also worsen asthma."
         }
 
       },
@@ -203,7 +203,7 @@
               "value": 39
             }
           ],
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+          "description": "Carbon monoxide is a gaseous pollutant that is produced by the incomplete burning of the carbonate compounds (firewood, coal, paraffin, oil). It is mainly generated by vehicles emission, but also heaters in households. When carbon monoxide is breathed in, it prevents blood from carrying oxygen making it hard to breath and causing dizziness and nausea."
         }
 
       },
@@ -215,36 +215,36 @@
         "details": {
           "previous_readings": [
             {
-              "date": "2017-03-27T10:00:00Z",
-              "value": 31
+              "date": "2017-03-27T10:12:00Z",
+              "value": 89
             },
             {
-              "date": "2017-03-27T11:00:00Z",
-              "value": 33
+              "date": "2017-03-27T11:13:00Z",
+              "value": 85
             },
             {
-              "date": "2017-03-27T12:00:00Z",
-              "value": 31
+              "date": "2017-03-27T12:14:00Z",
+              "value": 83
             },
             {
-              "date": "2017-03-27T13:00:00Z",
-              "value": 27
+              "date": "2017-03-27T13:15:00Z",
+              "value": 81
             },
 
             {
-              "date": "2017-03-27T14:00:00Z",
-              "value": 38
+              "date": "2017-03-27T14:16:00Z",
+              "value": 77
             },
             {
-              "date": "2017-03-27T15:00:00Z",
-              "value": 39
+              "date": "2017-03-27T15:17:00Z",
+              "value": 75
             },
             {
-              "date": "2017-03-27T16:00:00Z",
-              "value": 39
+              "date": "2017-03-27T16:18:00Z",
+              "value": 75
             }
           ],
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+          "description": "Ozone is a highly reactive gas that is formed when different gases react with the sun. Because the reaction takes place in the atmosphere, the ozone often shows up downwind of the sources of the original gases and can be carried far by the wind. When breathed, ozone irritates throat, causing cough. Can also worsen heart issues and asthma."
         }
 
       },
@@ -256,36 +256,36 @@
         "details": {
           "previous_readings": [
             {
-              "date": "2017-03-27T10:00:00Z",
-              "value": 31
+              "date": "2017-03-27T10:12:00Z",
+              "value": 8
             },
             {
-              "date": "2017-03-27T11:00:00Z",
-              "value": 33
+              "date": "2017-03-27T11:13:00Z",
+              "value": 9
             },
             {
-              "date": "2017-03-27T12:00:00Z",
-              "value": 31
+              "date": "2017-03-27T12:14:00Z",
+              "value": 4
             },
             {
-              "date": "2017-03-27T13:00:00Z",
-              "value": 27
+              "date": "2017-03-27T13:15:00Z",
+              "value": 6
             },
 
             {
-              "date": "2017-03-27T14:00:00Z",
-              "value": 38
+              "date": "2017-03-27T14:16:00Z",
+              "value": 5
             },
             {
-              "date": "2017-03-27T15:00:00Z",
-              "value": 39
+              "date": "2017-03-27T15:17:00Z",
+              "value": 5
             },
             {
-              "date": "2017-03-27T16:00:00Z",
-              "value": 39
+              "date": "2017-03-27T16:18:00Z",
+              "value": 6
             }
           ],
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci consequatur cum dolor doloremque esse eum ex facere facilis fugit incidunt itaque libero neque officiis pariatur totam, ut vitae voluptate"
+          "description": "Highly reactive gas that primarily gets in the air from the burning of fuel. Affects human health when breathed in, causing difficulty in breathing and increasing susceptibility to infections."
         }
 
       }
