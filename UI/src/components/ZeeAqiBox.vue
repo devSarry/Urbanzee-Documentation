@@ -1,5 +1,6 @@
 <template>
-    <div class="card aqi-box">
+    <div    :class="featureColorClass(aqi)"
+            class="card aqi-box">
         <header>
             Air Quality Index
         </header>
@@ -71,6 +72,27 @@
 
 <script>
     export default {
-        props: ['aqi', 'location', 'timestamp']
+        props: ['aqi', 'location', 'timestamp'],
+        methods: {
+            featureColorClass(value){
+                if (value > 0 && value < 50) {
+                    return 'good-aqi'
+                }
+                if (value >= 50 && value < 100) {
+                    return 'moderate-aqi'
+                }
+                if (value >= 100 && value < 150) {
+                    return 'unhealthy-aqi'
+                }
+                if (value >= 150 && value < 200) {
+                    return 'more-unhealthy-aqi'
+                }
+                if (value >= 200 && value < 300) {
+                    return 'very-unhealthy-aqi'
+                }
+
+                return 'hazardous-aqi'
+            }
+        }
     }
 </script>
